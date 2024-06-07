@@ -57,35 +57,20 @@ h4 {
   float: left;
 }
 
-/* Estilos nav */
-#navPrincipalComprador {
-    float: right;
-    margin-top: 5px;
-    margin-right: 10px;
-    max-width: 700px;
-  }
-  
-  #navPrincipalComprador li {
-    list-style-type: none;
-    padding: 10px;
-    margin: 5px;
-    float: left;
-  }
-
 header img {
   margin: 20px;
   width: 60px;
   border:1px solid #888;
 }
 
-#navPrincipal a {
+#navPrincipal a, #navPrincipalComprador a {
   cursor: pointer;
   color: #fafafa;
   font-size: 14px;
   font-weight: 600;
 }
 
-#navPrincipal a:hover {
+#navPrincipal a:hover, #navPrincipalComprador a:hover {
   color: #c0ca33;
 }
 
